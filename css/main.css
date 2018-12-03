@@ -1,0 +1,50 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+  max-height: 500px;
+}
+
+.card-body {
+  padding: 0 1.5rem;
+  position: absolute;
+  bottom: 1.5rem;
+  left: 50%;
+  width: 100%;
+  max-width: 50em;
+  transform: translateX(-50%);
+}
+
+.card-title {
+  font-size: 4rem;
+  line-height: 1.4;
+  font-weight: bold;
+  color: #fff;
+  display: inline;
+
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.card-body p {
+  font-size: 2rem;
+  font-style: italic;
+  margin: .75rem 0 0;
+}
